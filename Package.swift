@@ -4,8 +4,8 @@
 import PackageDescription
 
 let sdkName = "KMLocationSDK"
-let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.3.10/KMLocationSDK.xcframework.zip"
-let checksum = "9e5913d450fe63f8d81937985dbda6a3567fb0e809a2d3355105ecede99a52cf"
+let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.3.11/KMLocationSDK.xcframework.zip"
+let checksum = "ef5c7fa300bba729525b9c63c2a61b483630bac93798520404498260917ff947"
 
 let package = Package(
     name: sdkName,
@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/tjlabs/jupiter-sdk-spm", exact: Version(stringLiteral: "1.11.11")),
+        .package(url: "https://github.com/tjlabs/jupiter-sdk-spm", exact: Version(stringLiteral: "1.11.15")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
