@@ -11,7 +11,7 @@ let checksum = "cb168c8793e21c2babc90027282905511a26ff4775b560020e399091231b854a
 let package = Package(
     name: sdkName,
     platforms: [
-        .iOS(.v12)
+        .iOS(.v15)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
