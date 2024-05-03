@@ -5,8 +5,8 @@ import PackageDescription
 
 let sdkName = "KMLocationSDK"
 
-let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.3.82/KMLocationSDK.xcframework.zip"
-let checksum = "816f8e2e5b2f44cda3c0eefadda8919e6021cfb6f26b1a2047d2651ae29ddeb5"
+let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.104.3/KMLocationSDK.xcframework.zip"
+let checksum = "0dbd1a274d75332b226392b7b8b51ae83c33da52809ce41a3100cd47623effbe"
 
 let package = Package(
     name: sdkName,
@@ -21,8 +21,8 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/tjlabs/jupiter-sdk-spm", exact: Version(stringLiteral: "3.4.3")),
-//        .package(url: "https://github.com/google/flatbuffers.git", exact: Version(stringLiteral: "22.10.26")),
+//        .package(url: "https://github.com/tjlabs/jupiter-sdk-spm", exact: Version(stringLiteral: "3.4.3")),
+        .package(url: "https://github.com/google/flatbuffers.git", exact: Version(stringLiteral: "22.10.26")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -30,7 +30,7 @@ let package = Package(
         .binaryTarget(name: sdkName, url: binaryUrl, checksum: checksum),
         .target(name: "\(sdkName)Wrapper",
                 dependencies: [.target(name: sdkName),
-                    .product(name: "JupiterSDK", package: "jupiter-sdk-spm")
-                    /*.product(name: "FlatBuffers", package: "flatbuffers")*/])
+//                    .product(name: "JupiterSDK", package: "jupiter-sdk-spm"),
+                    .product(name: "FlatBuffers", package: "flatbuffers")])
     ]
 )
