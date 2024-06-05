@@ -5,8 +5,8 @@ import PackageDescription
 
 let sdkName = "KMLocationSDK"
 
-let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.4.6/KMLocationSDK.xcframework.zip"
-let checksum = "8448e2a8e779412ef1b4591ba224782857ed8ff513f6759497204c2d08eaf7e6"
+let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.104.7/KMLocationSDK.xcframework.zip"
+let checksum = "70a664865a2fb66d7eccaf90105b13bce56002fcfe657636a04b75ac3208e4fe"
 
 let package = Package(
     name: sdkName,
@@ -21,7 +21,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/tjlabs/jupiter-sdk-spm", exact: Version(stringLiteral: "3.4.3")),
+//        .package(url: "https://github.com/tjlabs/jupiter-sdk-spm", exact: Version(stringLiteral: "3.4.3.2")),
         .package(url: "https://github.com/google/flatbuffers.git", exact: Version(stringLiteral: "22.10.26")),
     ],
     targets: [
@@ -30,7 +30,7 @@ let package = Package(
         .binaryTarget(name: sdkName, url: binaryUrl, checksum: checksum),
         .target(name: "\(sdkName)Wrapper",
                 dependencies: [.target(name: sdkName),
-                    .product(name: "JupiterSDK", package: "jupiter-sdk-spm"),
+//                    .product(name: "JupiterSDK", package: "jupiter-sdk-spm"),
                     .product(name: "FlatBuffers", package: "flatbuffers")])
     ]
 )
