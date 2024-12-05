@@ -1,11 +1,11 @@
 // swift-tools-version: 5.6
 // The swift-tools-version declares the minimum version of Swift required to build this package.
-
+// 1.5.4
 import PackageDescription
 
 let sdkName = "KMLocationSDK"
 
-let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/spm/1.5.4/KMLocationSDK.xcframework.zip"
+let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/spm/1.5.3/KMLocationSDK.xcframework.zip"
 let checksum = "45eabb09f386d9ca9467d90b09ad02dfe69f992ab4514b4d87132685dd5ef044"
 
 let package = Package(
