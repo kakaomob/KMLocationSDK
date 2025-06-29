@@ -5,8 +5,8 @@ import PackageDescription
 
 let sdkName = "KMLocationSDK"
 
-let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.59.21/KMLocationSDK.xcframework.zip"
-let checksum = "3ccb8e2091740bd6fe73c7915480bd7e0f41044176e9041f98b37375f07f9f17"
+let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.59.22/KMLocationSDK.xcframework.zip"
+let checksum = "cd41cb4265e57f1f4477d974da359f878025f7b72c862d1a349a4ed1b33cb58a"
 
 let package = Package(
     name: sdkName,
@@ -31,6 +31,6 @@ let package = Package(
         .target(name: "\(sdkName)Wrapper",
                 dependencies: [.target(name: sdkName),
                     .product(name: "JupiterSDK", package: "jupiter-sdk-spm"),
-                    /*.product(name: "FlatBuffers", package: "flatbuffers")*/])
+                    .product(name: "FlatBuffers", package: "flatbuffers")])
     ]
 )
