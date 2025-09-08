@@ -5,8 +5,8 @@ import PackageDescription
 
 let sdkName = "KMLocationSDK"
 
-let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.524.16/KMLocationSDK.xcframework.zip"
-let checksum = "73ababdc10c5276a07a3b284581b7652cbe67521a1a06dd184fd76797ba42224"
+let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.5.25/KMLocationSDK.xcframework.zip"
+let checksum = "36f7703722edf91711df3f470c013a19a3e5463246e05ea4e780a8f380c2fa46"
 
 let package = Package(
     name: sdkName,
@@ -21,7 +21,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/tjlabs/olympus-sdk-spm", exact: Version(stringLiteral: "0.2.28")),
+        .package(url: "https://github.com/tjlabs/olympus-sdk-spm", exact: Version(stringLiteral: "0.3.0")),
         .package(url: "https://github.com/google/flatbuffers.git", exact: Version(stringLiteral: "25.2.10")),
     ],
     targets: [
