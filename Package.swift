@@ -5,8 +5,8 @@ import PackageDescription
 
 let sdkName = "KMLocationSDK"
 
-let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.530.7/KMLocationSDK.xcframework.zip"
-let checksum = "85416b5d40fb99315e17c25937d9c4e2749285c3848c62780a7721c441b2b3e2"
+let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.105.31/KMLocationSDK.xcframework.zip"
+let checksum = "107275c3039e94b3c6ae33e3b35acfc99c92979a96627cf2274dfb8fedf5569f"
 
 let package = Package(
     name: sdkName,
@@ -21,7 +21,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/tjlabs/olympus-sdk-spm", exact: Version(stringLiteral: "0.3.2")),
+//        .package(url: "https://github.com/tjlabs/olympus-sdk-spm", exact: Version(stringLiteral: "0.3.2")),
         .package(url: "https://github.com/google/flatbuffers.git", exact: Version(stringLiteral: "25.2.10")),
     ],
     targets: [
@@ -30,7 +30,7 @@ let package = Package(
         .binaryTarget(name: sdkName, url: binaryUrl, checksum: checksum),
         .target(name: "\(sdkName)Wrapper",
                 dependencies: [.target(name: sdkName),
-                    .product(name: "OlympusSDK", package: "olympus-sdk-spm"),
+//                    .product(name: "OlympusSDK", package: "olympus-sdk-spm"),
                                .product(name: "FlatBuffers", package: "flatbuffers")])
     ]
 )
