@@ -5,8 +5,8 @@ import PackageDescription
 
 let sdkName = "KMLocationSDK"
 
-let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.105.65/KMLocationSDK.xcframework.zip"
-let checksum = "0f05797e4165474ef6d78ea184014e0a73ce6df4a63a615da4f36c5cd668f916"
+let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.105.66/KMLocationSDK.xcframework.zip"
+let checksum = "d1880d459b151cb175d0dbeb3d1b3bf7382f4a92bb3a730c36d1f42e2b7239c8"
 
 let package = Package(
     name: sdkName,
@@ -22,17 +22,21 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         //.package(url: "https://github.com/tjlabs/olympus-sdk-spm", exact: Version(stringLiteral: "0.3.9")),
-        .package(url: "https://github.com/kakaomob/KMLocationSDKXiOS", exact: Version(stringLiteral: "0.1.11")),
-        .package(url: "https://github.com/google/flatbuffers.git", exact: Version(stringLiteral: "25.2.10")),
+        //.package(url: "https://github.com/kakaomob/KMLocationSDKXiOS", exact: Version(stringLiteral: "0.1.11")),
+        //.package(url: "https://github.com/google/flatbuffers.git", exact: Version(stringLiteral: "25.2.10")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: sdkName, url: binaryUrl, checksum: checksum),
-        .target(name: "\(sdkName)Wrapper",
-                dependencies: [.target(name: sdkName),
-                    //.product(name: "OlympusSDK", package: "olympus-sdk-spm"),
-                    .product(name: "KMLocationSDKXiOS", package: "KMLocationSDKXiOS"),
-                               .product(name: "FlatBuffers", package: "flatbuffers")])
+        .target(
+            name: "\(sdkName)Wrapper",
+            dependencies: [
+                .target(name: sdkName),
+                //.product(name: "OlympusSDK", package: "olympus-sdk-spm"),
+                //.product(name: "KMLocationSDKXiOS", package: "KMLocationSDKXiOS"),
+                //.product(name: "FlatBuffers", package: "flatbuffers")
+            ]
+        )
     ]
 )
