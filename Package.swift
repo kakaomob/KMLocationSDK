@@ -29,10 +29,28 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: sdkName, url: binaryUrl, checksum: checksum),
+        // TJJupiterSDK's 4 vendored TJLabs frameworks are DYNAMIC libraries: unlike the
+        // OlympusSDK/FlatBuffers source pods, they cannot be statically folded into
+        // KMLocationSDK.framework — the KMLocationSDK binary carries @rpath load commands
+        // for them, so dyld must find them in the host app bundle at launch (missing them
+        // aborts launch with "Library not loaded: @rpath/TJLabsAuth.framework/...").
+        // Declaring them as binary targets makes SPM link AND embed them into the app
+        // automatically. They are referenced-only (never duplicated inside KMLocationSDK),
+        // so this does not violate the no-dependency-export rule that keeps the source
+        // pods commented out above. The checked-in copies under Frameworks/ must track the
+        // TJJupiterSDK pod version pinned in the KMLocationSDK build Podfile (now 2.0.2).
+        .binaryTarget(name: "TJLabsAuth", path: "Frameworks/TJLabsAuth.xcframework"),
+        .binaryTarget(name: "TJLabsCommon", path: "Frameworks/TJLabsCommon.xcframework"),
+        .binaryTarget(name: "TJLabsResource", path: "Frameworks/TJLabsResource.xcframework"),
+        .binaryTarget(name: "TJLabsJupiter", path: "Frameworks/TJLabsJupiter.xcframework"),
         .target(
             name: "\(sdkName)Wrapper",
             dependencies: [
                 .target(name: sdkName),
+                .target(name: "TJLabsAuth"),
+                .target(name: "TJLabsCommon"),
+                .target(name: "TJLabsResource"),
+                .target(name: "TJLabsJupiter"),
                 //.product(name: "OlympusSDK", package: "olympus-sdk-spm"),
                 //.product(name: "KMLocationSDKXiOS", package: "KMLocationSDKXiOS"),
                 //.product(name: "FlatBuffers", package: "flatbuffers")
