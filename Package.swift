@@ -5,8 +5,8 @@ import PackageDescription
 
 let sdkName = "KMLocationSDK"
 
-let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.589.1/KMLocationSDK.xcframework.zip"
-let checksum = "6c09d6c14e9f671845106d88fe934ef144e26fd2538def8e83dbe77a2f8fd242"
+let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.589.2/KMLocationSDK.xcframework.zip"
+let checksum = "8b241cacdf0950c60cb679ef58e821edd0184eaf71265c416043f22a50763485"
 
 let package = Package(
     name: sdkName,
