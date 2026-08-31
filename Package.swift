@@ -5,8 +5,8 @@ import PackageDescription
 
 let sdkName = "KMLocationSDK"
 
-let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.105.91/KMLocationSDK.xcframework.zip"
-let checksum = "4ace7323ef15b7cb380694c197245a0441b17e1eb1ffaa1fae021f6c38056421"
+let binaryUrl = "https://devrepo.kakaomobility.com/repository/LocationCocoaPod/locationsdk-ios/1.5.91/KMLocationSDK.xcframework.zip"
+let checksum = "3f8b79907db5f3b8024b52fc600ebb6525ddae8f5835919ddbfb72322c02a747"
 
 let package = Package(
     name: sdkName,
@@ -39,18 +39,18 @@ let package = Package(
         // so this does not violate the no-dependency-export rule that keeps the source
         // pods commented out above. The checked-in copies under Frameworks/ must track the
         // TJJupiterSDK pod version pinned in the KMLocationSDK build Podfile (now 2.0.2).
-        //.binaryTarget(name: "TJLabsAuth", path: "Frameworks/TJLabsAuth.xcframework"),
-        //.binaryTarget(name: "TJLabsCommon", path: "Frameworks/TJLabsCommon.xcframework"),
-        //.binaryTarget(name: "TJLabsResource", path: "Frameworks/TJLabsResource.xcframework"),
-        //.binaryTarget(name: "TJLabsJupiter", path: "Frameworks/TJLabsJupiter.xcframework"),
+        .binaryTarget(name: "TJLabsAuth", path: "Frameworks/TJLabsAuth.xcframework"),
+        .binaryTarget(name: "TJLabsCommon", path: "Frameworks/TJLabsCommon.xcframework"),
+        .binaryTarget(name: "TJLabsResource", path: "Frameworks/TJLabsResource.xcframework"),
+        .binaryTarget(name: "TJLabsJupiter", path: "Frameworks/TJLabsJupiter.xcframework"),
         .target(
             name: "\(sdkName)Wrapper",
             dependencies: [
                 .target(name: sdkName),
-                //.target(name: "TJLabsAuth"),
-                //.target(name: "TJLabsCommon"),
-                //.target(name: "TJLabsResource"),
-                //.target(name: "TJLabsJupiter"),
+                .target(name: "TJLabsAuth"),
+                .target(name: "TJLabsCommon"),
+                .target(name: "TJLabsResource"),
+                .target(name: "TJLabsJupiter"),
                 //.product(name: "OlympusSDK", package: "olympus-sdk-spm"),
                 //.product(name: "KMLocationSDKXiOS", package: "KMLocationSDKXiOS"),
                 //.product(name: "FlatBuffers", package: "flatbuffers")
