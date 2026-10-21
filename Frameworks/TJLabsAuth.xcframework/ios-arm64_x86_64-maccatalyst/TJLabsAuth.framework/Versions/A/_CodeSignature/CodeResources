@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/TJLabsAuthSecretConfig.plist</key>
 		<data>
-		vDDv1sILudeRYEqP9W6rUI9IHXw=
+		1Z0yEI337f9hDY3S9vBAcy/IX0M=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -26,70 +26,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MoN9VZ4tTZbXs2pAs8six8yd/3rQwgftkLg6/lU0xTI=
+			cNSCDqgRG1iqROPzqQCM1n5uI4oVcYaP5ub6xBcxoCY=
 			</data>
 		</dict>
 		<key>Modules/TJLabsAuth.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+44yKZuxSdcGhMGiMJmiRporp50RBeQDoYACd9q+ZwM=
+			nopLjbS8mHV5gipKuURUubxU+lEV+UjLa2OdAy+jW6E=
 			</data>
 		</dict>
 		<key>Modules/TJLabsAuth.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			omFys1R4RnOUdEmXkKl9t6rjb50U/O5MPpcifuSrrUk=
+			iuQjtR7rlt7bcNmW++lHNaAEQyoknKfa2T2uow0nMV4=
 			</data>
 		</dict>
 		<key>Modules/TJLabsAuth.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+44yKZuxSdcGhMGiMJmiRporp50RBeQDoYACd9q+ZwM=
+			nopLjbS8mHV5gipKuURUubxU+lEV+UjLa2OdAy+jW6E=
 			</data>
 		</dict>
 		<key>Modules/TJLabsAuth.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QiuSILOHrg8VHl4GXOXWbvAaBtvXHsyMyFz/sxF0saE=
+			/X67KRrhlSOK/EcGExrZYVla6XqCJVZ/Y45GHuKRKLQ=
 			</data>
 		</dict>
 		<key>Modules/TJLabsAuth.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MoN9VZ4tTZbXs2pAs8six8yd/3rQwgftkLg6/lU0xTI=
+			cNSCDqgRG1iqROPzqQCM1n5uI4oVcYaP5ub6xBcxoCY=
 			</data>
 		</dict>
 		<key>Modules/TJLabsAuth.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lrhvpub5hD0L+DmQhYkvNclOGU7Qoi3W6zCnLYITaw0=
+			Z/XyAQqlPTLzg720SUFhvkEhOLe70zJp0rekU1IiTIk=
 			</data>
 		</dict>
 		<key>Modules/TJLabsAuth.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XSXivDxo8iWKX7h+fEHp9PTsAJ6vd2nuJkP/GYtgVdE=
+			H3t0UbjqVijQhsd3B9XjCB5FBBKVgrqNH/JbAtm7ry8=
 			</data>
 		</dict>
 		<key>Modules/TJLabsAuth.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lrhvpub5hD0L+DmQhYkvNclOGU7Qoi3W6zCnLYITaw0=
+			Z/XyAQqlPTLzg720SUFhvkEhOLe70zJp0rekU1IiTIk=
 			</data>
 		</dict>
 		<key>Modules/TJLabsAuth.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c6MOMf7ui402Vc08QIENW+tF+vzNuAypCBqW7Rd07bY=
+			migWuYF2eVlqEEHCXoDskyc/a7bYjUXb1DhaojBwVwo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -110,7 +110,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qzrhMwH7liDhfoKd4TF7NKdDRuTc1ZLKnxLGsubwH2M=
+			00MD7wEM+bl69LC9mkpfvugMQDpILn14uxA4GEXGm5U=
 			</data>
 		</dict>
 	</dict>
