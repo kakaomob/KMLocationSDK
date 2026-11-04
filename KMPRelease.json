@@ -1,0 +1,25 @@
+{
+  "byteCounts" : {
+    "KMLocationSDK.xcframework.zip" : 28844924,
+    "LocationCocoaPod.xcframeworks.zip" : 66463445
+  },
+  "checksums" : {
+    "KMLocationSDK.xcframework.zip" : "c1b17776726d02477975ceacc9144fd3ab0481ebad176c56104f11f57b8f8c57",
+    "LocationCocoaPod.xcframeworks.zip" : "7ca9d67ff824d095e678630b62d666906bc020c058689a0f33bfd3f1b3625415"
+  },
+  "consumerVerified" : true,
+  "edition" : "pro",
+  "OlympusSDK" : "0.3.11",
+  "signingIdentity" : "iPhone Distribution: Kakao Mobility Corp.",
+  "sourceBranch" : "kmp\/steve",
+  "sourceCommit" : "8b202724a44448b0f635ba7c4ce8dc3207c259ac",
+  "sourceDirty" : false,
+  "sourcePath" : "\/Users\/steve.ham\/Documents\/Work\/Android\/location-sdk-core-kmp",
+  "sourceStatus" : "",
+  "sourceUntrackedChecksums" : {
+
+  },
+  "TJJupiterSDK" : "2.0.22",
+  "version" : "1.596.8",
+  "xcode" : "Xcode 27.2\nBuild version 27B52"
+}
