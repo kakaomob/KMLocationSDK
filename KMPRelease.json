@@ -1,0 +1,25 @@
+{
+  "byteCounts" : {
+    "KMLocationSDK.xcframework.zip" : 29133255,
+    "LocationCocoaPod.xcframeworks.zip" : 66751776
+  },
+  "checksums" : {
+    "KMLocationSDK.xcframework.zip" : "14cae78d4e7ef7856b5036392eb50c2132e79a5a4d9f3a32a564bd07fa9716e2",
+    "LocationCocoaPod.xcframeworks.zip" : "774b7e167d688d2b302f98014522febb8c92e8a7b3add95344de46a3ed34b126"
+  },
+  "consumerVerified" : true,
+  "edition" : "pro",
+  "OlympusSDK" : "0.3.11",
+  "signingIdentity" : "iPhone Distribution: Kakao Mobility Corp.",
+  "sourceBranch" : "kmp\/steve",
+  "sourceCommit" : "22b5d650b9984518f2dd17b50ae94c6a006ff2bf",
+  "sourceDirty" : true,
+  "sourcePath" : "\/Users\/steve.ham\/Documents\/Work\/Android\/location-sdk-core-kmp",
+  "sourceStatus" : "M AGENTS.md\n M README.md\n M migration\/validation.md\n M navi\/src\/commonMain\/kotlin\/com\/kakaomobility\/location\/navi\/api\/CommonLocationManager.kt\n M navi\/src\/commonMain\/kotlin\/com\/kakaomobility\/location\/navi\/api\/CommonLocationSimManager.kt\n M navi\/src\/commonMain\/kotlin\/com\/kakaomobility\/location\/navi\/data\/local\/SQLDelightDataSource.kt\n M navi\/src\/commonMain\/kotlin\/com\/kakaomobility\/location\/navi\/data\/repository\/logging\/TenthSaveRepository.kt\n M navi\/src\/commonMain\/kotlin\/com\/kakaomobility\/location\/navi\/domain\/usecase\/VehicleOutdoorPositionUseCase.kt\n M navi\/src\/commonMain\/kotlin\/com\/kakaomobility\/location\/navi\/domain\/utility\/KalmanFilterOperator.kt\n M navi\/src\/commonMain\/kotlin\/com\/kakaomobility\/location\/navi\/domain\/utility\/ValidChecker.kt\n M navi\/src\/iosMain\/kotlin\/com\/kakaomobility\/location\/navi\/api\/LocationManagerSwiftKotlinBridge.kt\n M navi\/src\/pro\/kotlin\/com\/kakaomobility\/location\/navi\/data\/source\/local\/activity\/ActivityTransitionLocalDataSource.kt\n M navi\/src\/tjlabs\/kotlin\/com\/kakaomobility\/location\/navi\/data\/local\/TJLabsDataSource.kt\n M navi\/src\/tjlabs\/kotlin\/com\/kakaomobility\/location\/navi\/data\/local\/TJLabsV2DataSource.kt\n M navi\/src\/withFin\/kotlin\/com\/kakaomobility\/location\/navi\/data\/repository\/positioning\/FinRepository.kt\n M navi\/src\/withFin\/kotlin\/com\/kakaomobility\/location\/navi\/data\/repository\/positioning\/IOSFinRepository.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/api\/LocationSdkIndoorClient.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/repository\/logging\/ConsoleLogManager.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/repository\/logging\/LocalLoggingRepository.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/source\/local\/gps\/FlpLocalDataSource.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/source\/local\/gps\/GpsLocalDataSource.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/source\/local\/sensor\/SensorLocalDataSource.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/source\/remote\/gateway\/GatewayDataSource.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/wrapper\/database\/SQLDelightDatabase.kt\n M src\/iosMain\/kotlin\/com\/kakaomobility\/locationx\/core\/wrapper\/location\/LocationManagerWrapper.ios.kt",
+  "sourceUntrackedChecksums" : {
+
+  },
+  "TJJupiterSDK" : "2.0.22",
+  "version" : "1.596.11",
+  "xcode" : "Xcode 27.2\nBuild version 27B52"
+}
