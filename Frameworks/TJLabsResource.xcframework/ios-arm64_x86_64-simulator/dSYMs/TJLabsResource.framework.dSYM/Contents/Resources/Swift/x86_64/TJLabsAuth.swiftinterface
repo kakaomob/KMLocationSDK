@@ -82,10 +82,12 @@ public enum SecretConfig {
   public static func getUserBaseURL() -> Swift.String
   public static func getUserTokenVersion() -> Swift.String
   public static func getUserTokenURL() -> Swift.String
+  public static func getServerConfig() -> (region: Swift.String, dev: Swift.Bool)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class TJLabsAuthManager {
   public static let shared: TJLabsAuth.TJLabsAuthManager
+  public static let tenantDidChangeNotification: Foundation.Notification.Name
   public var isAuthorized: Swift.Bool
   public func getAccessToken(update: Swift.Bool = true, completion: @escaping (TJLabsAuth.TokenResult) -> Swift.Void)
   public func getTenantId() -> Swift.Int
@@ -96,6 +98,13 @@ public enum SecretConfig {
   #endif
   public func auth(accessKey: Swift.String, secretAccessKey: Swift.String, completion: @escaping (Swift.Int, Swift.Bool) -> Swift.Void)
   public func isTokenNearExpiry(threshold: Foundation.TimeInterval = 60) -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class TJLabsAuthOnPremiseConstants {
+  public static func setBaseURL(_ url: Swift.String)
+  public static func isEnabled() -> Swift.Bool
+  public static func getUserBaseURL() -> Swift.String
+  public static func getUserTokenURL() -> Swift.String
   @objc deinit
 }
 extension TJLabsAuth.AuthCloud : Swift.Equatable {}
