@@ -1,0 +1,29 @@
+{
+  "byteCounts" : {
+    "KMLocationSDK.xcframework.zip" : 28350039,
+    "TJLabsFrameworks.zip" : 38457810
+  },
+  "checksums" : {
+    "KMLocationSDK.xcframework.zip" : "3b741621c2142396c523548118cbb38adc2d654d56457d10b694411905ce25dd",
+    "TJLabsFrameworks.zip" : "8f643401a8e52be16be3521f978e97eda6f851d9caefb7b7dee29a3b9e4c5ba1"
+  },
+  "consumerVerified" : true,
+  "distribution" : "spm",
+  "edition" : "pro",
+  "OlympusSDK" : "0.3.11",
+  "signingIdentity" : "iPhone Distribution: Kakao Mobility Corp.",
+  "sourceBranch" : "kmp\/steve\/dev",
+  "sourceCommit" : "0d502d50bba64b0a354d340e0754af2f37b3807d",
+  "sourceDirty" : true,
+  "sourcePath" : "\/Users\/steve.ham\/Documents\/Work\/Android\/location-sdk-core-kmp",
+  "sourceStatus" : "M AGENTS.md\n M knsample\/src\/main\/kotlin\/com\/kakaomobility\/knsample\/activity\/LocationSdkActivity.kt\n M knsample\/src\/main\/res\/layout\/activity_location_sdk.xml\n M navi\/src\/commonMain\/kotlin\/com\/kakaomobility\/location\/navi\/api\/CommonLocationManager.kt\n M navi\/src\/commonMain\/kotlin\/com\/kakaomobility\/location\/navi\/data\/local\/SQLDelightDataSource.kt\n M navi\/src\/commonMain\/kotlin\/com\/kakaomobility\/location\/navi\/data\/repository\/logging\/GatewayUploadRepository.kt\n M navi\/src\/tjlabs\/kotlin\/com\/kakaomobility\/location\/navi\/data\/local\/TJLabsDataSource.kt\n M navi\/src\/tjlabs\/kotlin\/com\/kakaomobility\/location\/navi\/data\/local\/TJLabsV2DataSource.kt\n M navi\/src\/withFin\/kotlin\/com\/kakaomobility\/location\/navi\/data\/repository\/positioning\/FinRepository.kt\n M navi\/src\/withFin\/kotlin\/com\/kakaomobility\/location\/navi\/data\/repository\/positioning\/IOSFinRepository.kt\n M samples\/iosApp\/LocationSample\/LocationSdkView.swift\n M samples\/iosApp\/LocationSample\/LocationSdkViewModel.swift\n M src\/androidUnitTest\/kotlin\/com\/kakaomobility\/locationx\/core\/safety\/SQLDelightDatabaseTest.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/api\/CommonLocationSdkIndoorClient.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/network\/client\/KtorClientManager.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/repository\/logging\/ConsoleLogLocalLoggingRepository.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/repository\/logging\/SensorAnalysisLocalLoggingRepository.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/source\/local\/gps\/FlpLocalDataSource.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/source\/local\/gps\/GpsLocalDataSource.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/source\/local\/sensor\/SensorLocalDataSource.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/source\/remote\/gateway\/GatewayDataSource.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/domain\/usecase\/FloorDetectionUseCase.kt\n M src\/iosMain\/kotlin\/com\/kakaomobility\/locationx\/core\/wrapper\/location\/LocationManagerWrapper.ios.kt\n M src\/iosSimulatorArm64Test\/kotlin\/com\/kakaomobility\/locationx\/core\/safety\/NativeLogStorageTest.kt\n?? docs\/field-parity.md\n?? scripts\/field-parity-report.py\n?? src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/wrapper\/FieldParityLogger.kt\n?? src\/commonMain\/sqldelight\/com\/kakaomobility\/locationx\/core\/storage\/1.sqm",
+  "sourceUntrackedChecksums" : {
+    "docs\/field-parity.md" : "70ced3b636b6c4ea7ce8a27428814f2fdd7bdb19990341655cf4d45b9ec5ca7f",
+    "scripts\/field-parity-report.py" : "13d002c1bd53fac73c8ce0c66e3bc978d99320b337e7599e104365671368d096",
+    "src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/wrapper\/FieldParityLogger.kt" : "f1ae5af0ea2d428f3b0962f09ac4bd77d57e07fbb844efd1890693f46b882fa7",
+    "src\/commonMain\/sqldelight\/com\/kakaomobility\/locationx\/core\/storage\/1.sqm" : "418e8e51205e272f394b398da9b77feb950457041fbbc2a565a060a0f15786b6"
+  },
+  "TJJupiterSDK" : "2.0.24",
+  "version" : "1.5101.3",
+  "xcode" : "Xcode 27.2\nBuild version 27B52"
+}
