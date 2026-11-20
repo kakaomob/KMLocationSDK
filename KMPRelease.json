@@ -1,0 +1,26 @@
+{
+  "byteCounts" : {
+    "KMLocationSDK.xcframework.zip" : 29055423,
+    "TJLabsFrameworks.zip" : 38457810
+  },
+  "checksums" : {
+    "KMLocationSDK.xcframework.zip" : "768dea8123f19c1b5b43997623a81b0299a4e8c9c4e818a5defcc1a592e80a8e",
+    "TJLabsFrameworks.zip" : "897dda2a5ad0ee8235325990c2eac977e225d122ace8accad144eed8078f2491"
+  },
+  "consumerVerified" : true,
+  "distribution" : "spm",
+  "edition" : "pro",
+  "OlympusSDK" : "0.3.11",
+  "signingIdentity" : "iPhone Distribution: Kakao Mobility Corp.",
+  "sourceBranch" : "kmp\/steve\/dev",
+  "sourceCommit" : "c4699ec20c95a172274c639d3f7522c9e2633450",
+  "sourceDirty" : true,
+  "sourcePath" : "\/Users\/steve.ham\/Documents\/Work\/Android\/location-sdk-core-kmp",
+  "sourceStatus" : "M docs\/field-parity.md\n M knsample\/src\/main\/kotlin\/com\/kakaomobility\/knsample\/component\/FloorDebugOverlayView.kt\n M navi\/src\/commonMain\/kotlin\/com\/kakaomobility\/location\/navi\/api\/CommonLocationManager.kt\n M src\/androidUnitTest\/kotlin\/com\/kakaomobility\/locationx\/core\/network\/KtorClientManagerIntegrationTest.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/source\/remote\/gateway\/GatewayDataSource.kt",
+  "sourceUntrackedChecksums" : {
+
+  },
+  "TJJupiterSDK" : "2.0.24",
+  "version" : "1.5101.6",
+  "xcode" : "Xcode 27.2\nBuild version 27B52"
+}
