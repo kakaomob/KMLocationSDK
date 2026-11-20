@@ -1,0 +1,26 @@
+{
+  "byteCounts" : {
+    "KMLocationSDK.xcframework.zip" : 29132257,
+    "TJLabsFrameworks.zip" : 38457810
+  },
+  "checksums" : {
+    "KMLocationSDK.xcframework.zip" : "86e952ecf4d8f66ffa7a3429b288cf87af75ea9417ea31c2c2178ab921b41ef9",
+    "TJLabsFrameworks.zip" : "642c7f37500edf9b1597dfb0e1562770ee9d3a13d2be24ebf20c21065fc5c15c"
+  },
+  "consumerVerified" : true,
+  "distribution" : "spm",
+  "edition" : "pro",
+  "OlympusSDK" : "0.3.11",
+  "signingIdentity" : "iPhone Distribution: Kakao Mobility Corp.",
+  "sourceBranch" : "kmp\/steve\/dev",
+  "sourceCommit" : "39859d59844d147caab9a0d3ebacf98eeabf065b",
+  "sourceDirty" : true,
+  "sourcePath" : "\/Users\/steve.ham\/Documents\/Work\/Android\/location-sdk-core-kmp",
+  "sourceStatus" : "M docs\/field-parity.md\n M navi\/ios\/Sources\/API\/SharedLocationManager.swift\n M navi\/src\/withFin\/kotlin\/com\/kakaomobility\/location\/navi\/data\/repository\/positioning\/FinRepository.kt\n M samples\/iosApp\/LocationSample\/LocationSdkViewModel.swift\n M scripts\/field-parity-report.py\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/network\/client\/KtorClientManager.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/repository\/logging\/SensorAnalysisLocalLoggingRepository.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/source\/remote\/gateway\/GatewayDataSource.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/domain\/usecase\/FloorDetectionUseCase.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/engine\/algorithm\/RampManager.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/wrapper\/FieldParityLogger.kt\n M src\/iosMain\/kotlin\/com\/kakaomobility\/locationx\/core\/wrapper\/location\/LocationManagerWrapper.ios.kt\n M src\/iosSimulatorArm64Test\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/repository\/device\/FloorSimulationReplayIosTest.kt",
+  "sourceUntrackedChecksums" : {
+
+  },
+  "TJJupiterSDK" : "2.0.24",
+  "version" : "1.5101.7",
+  "xcode" : "Xcode 27.2\nBuild version 27B52"
+}
