@@ -1,0 +1,27 @@
+{
+  "byteCounts" : {
+    "KMLocationSDK.xcframework.zip" : 28524180,
+    "TJLabsFrameworks.zip" : 38457810
+  },
+  "checksums" : {
+    "KMLocationSDK.xcframework.zip" : "c1781face6b9fb2a2b615024c049ea22bb02ac4cc323bd252e4c0a679e71f9e6",
+    "TJLabsFrameworks.zip" : "b71fc600ebced8f0bd30585fd7abafc4265ea2863ce2be3eb285316984f795e5"
+  },
+  "consumerVerified" : true,
+  "distribution" : "spm",
+  "edition" : "pro",
+  "OlympusSDK" : "0.3.11",
+  "signingIdentity" : "iPhone Distribution: Kakao Mobility Corp.",
+  "sourceBranch" : "kmp\/steve\/dev",
+  "sourceCommit" : "9b64329b3352e2483052e86146367fbdd4f5fab8",
+  "sourceDirty" : true,
+  "sourcePath" : "\/Users\/steve.ham\/Documents\/Work\/Android\/location-sdk-core-kmp",
+  "sourceStatus" : "M docs\/field-parity.md\n M navi\/src\/commonMain\/kotlin\/com\/kakaomobility\/location\/navi\/api\/CommonLocationManager.kt\n M navi\/src\/withFin\/kotlin\/com\/kakaomobility\/location\/navi\/data\/repository\/positioning\/FinRepository.kt\n M navi\/src\/withFin\/kotlin\/com\/kakaomobility\/location\/navi\/data\/repository\/positioning\/IOSFinRepository.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/api\/CommonLocationSdkIndoorClient.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/network\/client\/KtorClientManager.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/repository\/logging\/ConsoleLogLocalLoggingRepository.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/data\/source\/remote\/gateway\/GatewayDataSource.kt\n M src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/domain\/usecase\/FloorDetectionUseCase.kt\n?? navi\/src\/commonMain\/kotlin\/com\/kakaomobility\/location\/navi\/api\/FinOutputLogger.kt\n?? src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/wrapper\/FieldParityLogger.kt",
+  "sourceUntrackedChecksums" : {
+    "navi\/src\/commonMain\/kotlin\/com\/kakaomobility\/location\/navi\/api\/FinOutputLogger.kt" : "cce0cab0c2102a5d2b134145afee4b7f5527e442802d1275919c47607b7b15a0",
+    "src\/commonMain\/kotlin\/com\/kakaomobility\/locationx\/core\/wrapper\/FieldParityLogger.kt" : "cb9b76316ee253bd9bbc8638a3d36386499b97b8ab01178f04b4146a28889396"
+  },
+  "TJJupiterSDK" : "2.0.24",
+  "version" : "1.5101.8",
+  "xcode" : "Xcode 27.2\nBuild version 27B52"
+}
